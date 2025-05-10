@@ -1,0 +1,245 @@
+
+
+:root {
+
+    --ai-column : #e66585;
+    --chat-background : #eddae5;
+    --ai-message : #856a73;
+    --user-message : #690d42;
+    --track : #6642a1;
+    --track-list : #eddae5;
+    --submit : #b54a58;
+    --submit-hover: #6b2730;
+    --header : #e66585;
+    --playlist-column : #e66585;
+    --background : #a9b8c4;
+    --prompt : #dbdbdb;
+
+}
+
+body {
+
+    font-family: Arial, sans-serif;
+    max-width: 100%;
+    background-color: var(--background);
+}
+
+h1, h2, h4 {
+    text-align: center;
+    color : white;
+}
+
+#prompt {
+
+    width : 80%;
+    font-size : 1em;
+    margin-right : 1em;
+    border-radius : 25px;
+    min-height : 50px;
+    padding : 10px;
+    background-color: var(--prompt);
+
+}
+
+.aiColumn, .playlistColumn {
+
+    height: 100%;
+    overflow-y: scroll;
+    padding: 1em;
+
+}
+
+html, body {
+
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+
+}
+
+.main_content {
+
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    max-width: 100%;
+    margin: 0;
+    padding: 1em 1em 1.5em;
+    height: calc(100vh - 210px);
+    gap : 1em;
+
+}
+
+.aiColumn {
+
+    width : 60%;
+    margin : 5px;
+    border : none;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    background-color: var(--ai-column);
+    padding : 0;
+
+}
+
+.playlistColumn {
+
+    flex : 1;
+    width: 40%;
+    background-color: var(--playlist-column);
+    margin : 5px;
+    border : none;
+    border-radius: 20px;
+    color: black;
+    padding: 0 0 1em;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.generatingResponse {
+
+    background-color: grey;
+    padding: 1em;
+    margin: 1em;
+
+}
+
+.playlist_list {
+
+    border : none;
+    margin : 10px;
+    padding : 0;
+
+}
+
+.playlist_list li {
+
+    list-style: none;
+    border : none;
+    margin: 10px 0 10px 0;
+    padding : 10px;
+    background-color: var(--track);
+    border-radius: 10px;
+
+}
+
+.playlist h3 {
+
+    color : black;
+    padding : 20px;
+
+}
+
+.playlist {
+
+    background-color: var(--track-list);
+    margin : 20px;
+    border : none;
+    border-radius: 20px;
+    height : 100%;
+    overflow-y: scroll;
+    flex : 1;
+
+}
+
+* {
+    box-sizing: border-box;
+}
+
+#submit {
+
+    flex : 1;
+    padding: 0.5em;
+    font-size: 1em;
+    background-color: var(--submit);
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+
+}
+
+#submit:hover {
+
+    background-color: var(--submit-hover);;
+
+}
+
+#chat_content {
+
+    flex : 1;
+    background-color: var(--chat-background);
+    padding: 1em;
+    border-radius: 15px;
+    overflow: scroll;
+    margin : 20px;
+
+}
+
+.chat_input {
+
+    display: flex;
+    margin-bottom : 1em;
+    margin-left : 1em;
+    margin-right : 1em;
+
+}
+
+header {
+
+    padding : 25px;
+    background-color: var(--header);
+    border-radius: 15px;
+    min-height : 100px;
+    margin: 25px 25px 0;
+
+}
+
+.track {
+
+    font-weight: bold;
+    font-size: 1.5em;
+    color : #dedede;
+
+}
+
+.artist_and_album {
+
+    font-size : 0.9em;
+    color : #bebebe;
+
+}
+
+.aiMessage {
+
+    background-color: var(--ai-message);
+    border : none;
+    border-radius: 20px;
+    padding: 1em;
+    margin: 0.5em;
+
+}
+
+.userMessage {
+
+    background-color: var(--user-message);
+    border : none;
+    border-radius: 20px;
+    padding: 1em;
+    margin: 0.5em;
+    color : white;
+
+}
+
+.generatingResponse {
+
+    background-color: grey;
+    border : none;
+    border-radius: 20px;
+    padding: 1em;
+    margin: 0.5em;
+
+}
