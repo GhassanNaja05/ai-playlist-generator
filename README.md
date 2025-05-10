@@ -2,9 +2,9 @@
 AI Chatbot Musical Playlist Generator
 ------------------------------------------------------------
 
-Course : Web Programming (SOEN 287)
-Term : Winter 2025
-Type : Bonus Assignment
+Course : Web Programming (SOEN 287)  
+Term : Winter 2025  
+Type : Bonus Assignment  
 
 This project was made as part of the bonus assignment for the Web Programming course at Concordia University. The goal was to create an AI chatbot capable of performing a specialized task (of our choice) by leveraging the benefit of API calls. The chosen task is to generate a musical playlist based on user preferences.
 
@@ -19,9 +19,9 @@ The project also fulfills the project’s constraints which consist of :
 Note :
 Although the full source code is available, API keys are still required to run it. Unfortunately, they can’t be provided for security reasons. To run the code, you need to create a .env file in the root directory and add the following keys :
 
-SPOTIFY_CLIENT_ID=your_spotify_client_id
-SPOTIFY_CLIENT_SECRET=you_spotify_client_secret
-GEMINI_API_KEY=your_google_gemini_key
+SPOTIFY_CLIENT_ID=your_spotify_client_id  
+SPOTIFY_CLIENT_SECRET=you_spotify_client_secret  
+GEMINI_API_KEY=your_google_gemini_key  
 
 Both keys can be obtained from their respective providers free of charge.
 
