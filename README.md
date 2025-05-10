@@ -24,12 +24,12 @@ SPOTIFY_CLIENT_SECRET=you_spotify_client_secret
 GEMINI_API_KEY=your_google_gemini_key  
 
 Both keys can be obtained from their respective providers free of charge.
+To run the code :
+
+- clone the project onto your computer
+- run `npm install` to install dependencies
+- run `node app.js`
 
 Screenshots are included to showcase the chatbot’s interface and functionality for those unable to run it locally.
 
 Comments are included in the code to explain each section in further detail.
-
-
-
-
-
